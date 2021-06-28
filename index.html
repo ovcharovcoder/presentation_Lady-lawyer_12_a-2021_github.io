@@ -1,0 +1,678 @@
+<!-- 
+Cайт лендинг-пейдж свёрстан по макету "Леді-адвокат про рівність прав жінок";
+Автор вёрстки: Андрей Овчаров;
+Дата вёрстки: 26.06.2021; 
+E-mail: datoshcode@gmail.com.
+Все авторские права на графический макет, принадлежат его автору. 
+Сайт сверстан с ознакомительной целью, без получения коммерческой выгоды.
+
+HTML-код успешно прошел проверку данных на валидность с помощью: https://validator.w3.org. Ошибок не обнаружено.
+-->
+
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Леді-адвокат про рівність прав жінок</title>
+    <!-- Веб-шрифты -->
+    <!-- 
+      font-family: 'Comfortaa', cursive;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Amatic SC', cursive;
+     -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa:wght@500&family=Montserrat:wght@600&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <!-- Сборос стилей браузера -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- Стили для слайдера -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+
+    <!-- Глобальные стили сайта -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Стили сайта для адаптива -->
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <!-- Логотип сайта -->
+          <a class="logo" href="#">
+            <img
+              class="logo__link"
+              src="images/icons/logo.svg"
+              alt="Логотип сайта"
+            />
+          </a>
+
+          <!-- Меню сайта BEGIN-CODE-->
+          <nav class="menu" id="menu">
+            <!-- Кнопка меню для мобильной версии -->
+            <button class="menu-btn"></button>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#preamble">
+                  Феміда підкорюється жінкам
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#questions">Думка фахівця</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link"  href="#photo-gallery">Фотогалерея</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Меню сайта /END-CODE-->
+        </div>
+      </div>
+    </header>
+
+    <!-- Главный банер сайта "Зневірятися не можна..." BEGIN-CODE -->
+    <section class="about">
+      <div class="container">
+        <div class="about__heading">
+          <div class="about__content">
+            <h1 class="about__title">
+              &laquo;Зневірятися не можна, з надією тільки вперед, до
+              перемоги&raquo;!:<br> леді-адвокат - про проблеми жінок у правовій
+              системі та дискримінація.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Главный банер сайта "Зневірятися не можна..." /END/CODE -->
+
+    <!-- Феміда підкорюється жінкам  /BEGIN-CODE -->
+    <section class="preamble">
+      <div class="container">
+        <h3 id="preamble" class="preamble__title">Феміда підкорюється жінкам</h3>
+        <div  class="preamble__item">
+          <div class="preamble__item-content">
+            <div class="preamble__item-text">
+              <p class="preamble__text">
+                Колись захищати людину в судах, могли тільки чоловіки, але в
+                сучасному світі професія адвоката доступна будь-якій людині
+                незалежно від її статі. Сьогодні жінки-адвокати беруться за
+                найскладніші справи, захищаючи постраждалих від домашнього
+                насильства, тортур і судового свавілля. Вони поряд зі своїми
+                колегами-чоловіками, цілодобово стоять на варті захисту
+                конституційних прав та свобод людини.
+              </p>
+
+              <p class="preamble__text">
+                Інколи, навіть дивуєшся як тендітність та жіноча краса і
+                ніжність, поєднуються з відчайдушними справжніми чоловічими
+                вчинками, коли мова йде про захист прав підозрюваного від
+                необґрунтованих звинувачень чи незаконного затримання. Те що
+                раніше здавалося не жіночими справами, вже тепер, в руках
+                «слабкої статі», розмивається часом та їх мужніми вчинками та
+                заслуговує на повагу. Леді-адвокат на шпильках, зараз змушена
+                водночас бути й люблячою мамою та турботливою дружиною, вдома та
+                навіть грізною, хитрою, рішучою, мужньою, гарною та здатною
+                брати на себе всю відповідальність за долю свого клієнта, під
+                час здійснення нею свого професійного обов’язку.
+              </p>
+            </div>
+          </div>
+          <img
+            class="preamble__item-img"
+            src="images/content/preamble__img-1.jpeg"
+            alt="Мужчина и женщина"
+          />
+        </div>
+
+        <div class="preamble__item preamble__item-last ">
+          <img
+            class="preamble__item-img"
+            src="images/content/preamble__img-2.jpg"
+            alt="Мужчина и женщина при деловой беседе"
+          />
+          <div class="preamble__item-content">
+            <div class="preamble__item-text">
+              <p class="preamble__text">
+                На перших етапах свого професійного шляху, жінці буває не
+                просто. Адже до жінок, в цьому плані, суспільством приділяється
+                значно більше уваги та критики, а ніж до чоловіків. Жінка
+                змушена постійно доводити свою здатність бути сильною та
+                виборювати своє місце у професії, а також доводити абсурдність
+                суспільної думки, про її місце лише біля плити та пральної
+                машини.
+              </p>
+
+              <p class="preamble__text">
+                Саме питанням статусу сучасної жінки у такій не нелегкій
+                професії, як адвокат, ми вирішили приділити свою увагу у цій
+                публікації.
+              </p>
+
+              <p>
+                Поговоримо з адвокатом, доктором юридичних наук, професором,
+                заслуженим діячем науки і техніки України, Власовою Ганною
+                Петрівною, про гендерні стереотипи, недосконалості судової
+                системи та про те, чому не можна впадати у відчай.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Феміда підкорюється жінкам /END-CODE -->
+
+    <!-- Думка фахівця /BEGIN-CODE-->
+    <section class="blockquote">
+      <div class="container">
+        <h3 id="questions" class="blockquote__title">Думка фахівця</h3>
+        <div class="blockquote__content">
+          <div class="blockquote__item">
+            <blockquote class="blockquote__text">
+              Потрібно ставити великі цілі для того щоб в них попасти<br>
+              <span>(Ф.Шиллер)</span>
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- Ответы на вопросы /BEGIN-CODE-->
+        <!-- Блок с голубым фоном -->
+        <!-- Вопрос 1 -->
+        <div class="questions">
+          <h4 class="questions__title">
+            Шановна, Ганна Петрівна, яка Ваша життєва позиція стосовно захисту
+            прав підозрюваного та обвинуваченого у суді?
+          </h4>
+          <div class="questions__item">
+            <img
+              class="questions__author-avatar"
+              src="images/icons/avatar.jpg"
+              alt="Аватар автора"
+            />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                Я стала вникати в долі людей, намагаючись зрозуміти, за що їх
+                притягають до відповідальності. Якщо ти бачиш перед собою
+                геніальну людину, яка йде на кілька кроків попереду інших, а за
+                це система його несправедливо карає, сумніваєшся в правильності
+                самої системи.
+              </p>
+              <p class="questions__author-text">
+                Адвокати не захищають ні бандитів, ні терористів, ні
+                ґвалтівників. Вони захищають осіб, які звинувачуються в
+                бандитизмі, тероризмі, насильстві. Злочин завжди знаходиться в
+                минулому. Його треба встановлювати за тими слідами, які
+                залишилися.
+              </p>
+            </div>         
+            <img
+              class="questions__img-bg"
+              src="images/content/bouquet_on-blue.png"
+              alt="Букет цветов"
+            />
+          </div>
+
+          <!-- Вопрос 2 -->
+          <h4 class="questions__title">
+            У разі виникнення життєвих негараздів, звідки Ви черпаєте сили та
+            хто Вас підтримує в цьому?
+          </h4>
+          <div class="questions__item">
+            <img
+              class="questions__author-avatar"
+              src="images/icons/avatar.jpg"
+              alt="Аватар автора"
+            />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                Сон і Життя на повну потужність, яка наповнена емоціями,
+                здебільшого позитивними. Це і про любов, теплі відносини,
+                дружбу, визнання, весь спектр позитивних почуттів, які ми
+                відчуваємо. А також про здоровий авантюризм і жагу пригод.
+                Підтримка улюблених і обраних роками людей) .... І, безумовно,
+                живопис, книги і музика.
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/femida.png"
+              alt="Статуэтка Фемида"
+            />
+          </div>
+
+          <!-- Блок с белым фоном -->
+          <!-- Вопрос 3 -->
+          <h4 class="questions__title">
+            На Вашу думку, яка вона сучасна жінка адвокат, яка її роль, а
+            можливо й покликання? Та як Ви, як жінка, реагуєте на постійні
+            запити суспільства (мається на увазі як Ви встигаєте йти в ногу з
+            часом)?
+          </h4>
+          <div class="questions__item questions__item-whitebg">
+            <img
+            class="questions__author-avatar"
+            src="images/icons/avatar.jpg"
+            alt="Аватар автора"
+          />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                Бути сучасною жінкою-адвокатом - це круто! Сучасна жінка - профі
+                у всьому. Упевнена в собі на роботі, вона успішно робить
+                кар’єру, добре виглядає і вміє себе подати. Вона талановита і
+                ніжна, смілива і любляча, ерудована та ініціативна. Вона
+                прекрасно розбирається у всяких новомодних тенденціях. Вона може
+                бути абсолютно різною - сьогодні зворушливою і беззахисною, а
+                завтра, навпаки, жорстокою спокусницею - все залежить від її
+                настрою.
+              </p>
+
+              <p class="questions__author-text">
+                Адвокату важливо бути привабливою, з почуттям гумору,
+                харизматичною і навіть хитрою. Сьогоднішній ритм життя
+                пред’являє до сучасної жінці високі вимоги, яким вона повинна
+                відповідати, починаючи з автомобіля і закінчуючи комп'ютером і
+                супернавороченного кухонного комбайну)) І завжди сім'я у неї
+                залишається на першому місці.
+              </p>
+
+              <p class="questions__author-text">
+                Про проблеми жінок в адвокатурі особливо не замислювалася.
+                Професія адвоката давно перестала бути суто чоловічою. Однак
+                навряд чи це свідчить про те, що жінкам в юриспруденції стало
+                набагато комфортніше. Очевидно, що для того, щоб жінці досягти
+                таких же успіхів у професійній, зокрема, в юридичній сфері, як і
+                чоловікові, їй доведеться затратити набагато більше зусиль при
+                однакових здібностях, в тому числі і на подолання опору з боку
+                громадської думки серед її колег - чоловіків, подолання
+                стереотипів про гендерні ролі жінок в сім’ї і в суспільстві. Але
+                лідерство в колективі жінкам, як і раніше довіряють рідше:
+                відсоток жінок на керівних позиціях залишається дуже низьким на
+                тлі того, наскільки повно вони представлені в професії.
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/bouquet_on-white.png"
+              alt="Букет цветов"
+            />
+          </div>
+
+          <!-- Вопрос 4 -->
+          <h4 class="questions__title">
+            Чи траплялися випадки порушення Ваших прав як жінки доступу до
+            професії та в подальшому реалізації послуг стосовно захисту клієнтів
+            ? Якщо так, то як це трапилося?
+          </h4>
+          <div class="questions__item questions__item-whitebg">
+            <img
+            class="questions__author-avatar"
+            src="images/icons/avatar.jpg"
+            alt="Аватар автора"
+          />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                Ні, я не пам’ятаю такого. Тим паче, я впевнена, що всі вже
+                достатньо обізнані із положеннями Конвенції ООН про ліквідацію
+                всіх форм дискримінації щодо жінок і відсутність можливостей для
+                її застосування, у тому числі судовими і правоохоронними
+                органами.
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/femida.png"
+              alt="Статуэтка Фемида"
+            />
+          </div>
+
+          <!-- Блок с голубым фоном -->
+          <!-- Вопрос 5 -->
+          <h4 class="questions__title">Чому обрали саме правознавство?</h4>
+          <div class="questions__item">
+            <img
+              class="questions__author-avatar"
+              src="images/icons/avatar.jpg"
+              alt="Аватар автора"
+            />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                Спочатку юриспруденція не вбачалася основним професійним
+                напрямком. Мій вибір визначили дві людини: тато і лікар (я
+                готувалася вступати до медичного університету).
+              </p>
+
+              <p class="questions__author-text">
+                Коли я навчалась у ВУЗі, викладачі говорили, що юристи це «біла
+                кістка» і «зірки». Мені дуже хотілося потрапити в цю категорію,
+                тому я закохалася в цю професію вже в процесі навчання. Але
+                потім я вже наскільки захопилася, що поставила цілі захистити
+                кандидатську дисертацію, а потім, з часом, зіграли амбіції -
+                захистила і докторську дисертацію.
+              </p>
+
+              <p class="questions__author-text">
+                Але бути адвокатом - це перш за все результат постійної
+                самоосвіти. Я вже говорила, у юриста повинні горіти очі, а якщо
+                він практикує в судах, очі повинні горіти подвійно, тому що він
+                в постійному творчому пошуку. Мій досвід завжди припускав
+                великий обсяг самостійної роботи, високий ступінь самодисципліни
+                і серйозного самоосвіти. А в 21 столітті - це завжди think
+                outside. І це не може не подобатися.
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/bouquet_on-blue.png"
+              alt="Букет цветов"
+            />
+          </div>
+
+          <!-- Вопрос 6 -->
+          <h4 class="questions__title">
+            На Вашу думку чи є суттєва різниця у спілкуванні та ділових
+            відносинах між жінками адвокатами та між жінкою та чоловіком
+            адвокатами? Якщо так, то в чому вона відображається?
+          </h4>
+          <div class="questions__item">
+            <img
+              class="questions__author-avatar"
+              src="images/icons/avatar.jpg"
+              alt="Аватар автора"
+            />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                Раніше я стикалася з &laquo;дискримінацією&raquo;, якщо її можна
+                так назвати, але не за статевою ознакою, а за віковою. Так, мене
+                рекомендували як сильного фахівця, приїжджали &laquo;дорослі
+                дяді&raquo; і дивилися на мене з недовірою, правда, рівно до тих
+                пір, поки я не починала говорити. На жаль чи на щастя, з такою
+                дискримінацією останнім часом я не стикаюся. Відносно адвокатів
+                я не спостерігаю якусь дискримінацію за статевою ознакою. Багато
+                що залежить від самого адвоката, його позиціонування себе і,
+                звичайно, його ефективності, під якою я розумію знання, досвід і
+                вміння битися за свого клієнта. Відкрию Вам маленьку таємницю, є
+                таке прислів’я на всі випадки: &laquo;Ніколи ні з ким не
+                сперечайся, краще зроби манікюр&raquo;.
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/femida.png"
+              alt="Статуэтка Фемида"
+            />
+          </div>
+
+          <!-- Блок с белым фоном -->
+          <!-- Вопрос 7 -->
+          <h4 class="questions__title">
+            Ви особисто себе краще відчуваєте, якщо Вашим діловим партнером або
+            помічником у судовій справі є жінка або чоловік? Чи є різниця?
+          </h4>
+          <div class="questions__item questions__item-whitebg">
+            <img
+              class="questions__author-avatar"
+              src="images/icons/avatar.jpg"
+              alt="Аватар автора"
+            />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                В даному випадку немає різниці, головне – це професіоналізм,
+                харизма, вміння приймати рішення і нести за них
+                відповідальність.
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/bouquet_on-white.png"
+              alt="Букет цветов"
+            />
+          </div>
+
+          <!-- Вопрос 8 -->
+          <h4 class="questions__title">
+            Відомо що Ви є автором багатьох наукових праць, гарним фахівцем у
+            галузі кримінального процесу та викладачем зі значним досвідом, що
+            Вами рухає та звідки ви черпаєте енергію щоб постійно доносити до
+            людей свої знання та досвід?
+          </h4>
+          <div class="questions__item questions__item-whitebg">
+            <img
+              class="questions__author-avatar"
+              src="images/icons/avatar.jpg"
+              alt="Аватар автора"
+            />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                Коли опрацьовуєш багато матеріалу і береш участь у багатьох
+                цікавих заходів, хочеш поділитися цими знаннями через свої
+                наукові праці, поділитися не тільки теорією процесу але і
+                практичними навичками. Мені таке поєднання видається цікавим.
+                Моя енергія – це розумні очі, які бажають вчитися, розвиватися і
+                любити юриспруденцію, а згодом бути найкращими. А ви знаєте, що
+                найкращих з неординарним мисленням відразу видно. Багато моїх
+                студентів та учнів – досягли великих досягнень, і я горджусь
+                ними).
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/femida.png"
+              alt="Статуэтка Фемида"
+            />
+          </div>
+
+          <!-- Блок с голубым фоном -->
+          <!-- Вопрос 9 -->
+          <h4 class="questions__title">
+            Ганна Петрівна, які ви можете надати поради майбутнім юристкам?
+          </h4>
+          <div class="questions__item">
+            <img
+              class="questions__author-avatar"
+              src="images/icons/avatar.jpg"
+              alt="Аватар автора"
+            />
+            <div class="questions__author-info">
+              <p class="questions__author-name">Ганна Власова</p>
+              <p class="questions__author-subname">
+                Адвокат, доктор юридичних наук, професор, заслуженим діячем
+                науки і техніки України
+              </p>
+              <p class="questions__author-text">
+                <ol class="questions__text-list">
+                  <li>
+                    Вибирати професію за своїм бажанням і покликанням, а не через гроші та моду;
+                  </li>
+                  <li>
+                    Розвивати soft skills (комунікації, переговори, публічний виступ, психологія);
+                  </li>
+                  <li>
+                    Порівнювати себе сьогодні і себе вчора;
+                  </li>
+                  <li>
+                    Знайти або створити команду однодумців;
+                  </li>
+                  <li>
+                    Брати на себе тільки ті зобов'язання, які можеш виконати;
+                  </li>
+                  <li>
+                    Будь-яку роботу робити добре, навіть безкоштовну;
+                  </li>
+                  <li>
+                    Бути наполегливою і рішучою;
+                  </li>
+                  <li>
+                    Бути готовою до змін і змінюватися в ногу з часом.
+                  </li>
+                </ol>
+              </p>
+            </div>
+            <img
+              class="questions__img-bg"
+              src="images/content/femida.png"
+              alt="Статуэтка Фемида"
+            />
+          </div>
+        </div>
+        <!-- Ответы на вопросы /END-CODE-->
+      </div>
+    </section>
+    <!-- Думка фахівця /END-CODE-->
+
+    <!-- Слайдер фотогалереи /BEGIN-CODE -->
+    <section class="photo-gallery">
+      <h3 id="photo-gallery" class="photo-gallery__title">Фотогалерея</h3>
+      <div class="photo-gallery__content">
+      <div class="container">
+        
+        <div class="photo-gallery__slider">
+          <div class="photo-gallery__item">
+            <img src="images/slider/slide_1.jpg" alt="">
+          </div>  
+          <div class="photo-gallery__item">
+            <img src="images/slider/slide_2.jpg" alt="">
+          </div>
+          <div class="photo-gallery__item">
+            <img src="images/slider/slide_3.jpg" alt="">
+          </div>
+          <div class="photo-gallery__item">
+            <img src="images/slider/slide_4.jpg" alt="">
+          </div>
+          <div class="photo-gallery__item">
+            <img src="images/slider/slide_5.jpg" alt="">
+          </div>
+          <div class="photo-gallery__item">
+            <img src="images/slider/slide_6.jpg" alt="">
+          </div>
+          <div class="photo-gallery__item">
+            <img src="images/slider/slide_7.jpg" alt="">
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+     <!-- Слайдер фотогалереи /END-CODE -->
+
+      <!-- Контакты /BEGIN-CODE -->
+    <section class="contacts">
+      <div class="container">
+        <h3 id="contacts" class="contacts__title">Контакти</h3>
+        <div class="contacts__items">
+          <img class="contacts__img" src="images/content/contacts__img.jpg" alt="Логотип юридической фирмы" >
+          <ul class="contacts__items-list">
+            <li class="contacts__item contacts__item--phone">
+             +380 (98) 000-08-58<br>
+             <span>Phone</span>
+            </li>
+            <li class="contacts__item contacts__item--email">
+            ganna.vlasova78@gmail.com<br>
+            <span>Email</span>
+            </li>
+            <li class="contacts__item contacts__item--web-site">
+              <a href="https://gvp-advocates.com.ua" class="contacts__link" target="_blank">
+                https://gvp-advocates.com.ua
+              </a>
+            <br>
+            <span>Website</span>
+            </li>
+            <li class="contacts__item contacts__item--mark-on-map">
+            Lobanowskyi 56<br>
+            <span>Street address</span>
+            </li>
+            <li class="contacts__item contacts__item--facebook">
+              <a href="https://www.facebook.com/gannavlasova78" class="contacts__link" target="_blank">
+                https://www.facebook.com/gannavlasova78
+              </a>
+            <br>
+            <span>Facebook</span>
+            </li>
+            <li class="contacts__item contacts__item--linkedit">
+              <a href="http://linkedin:com/in/анна-власова-5b03a51b3" class="contacts__link" target="_blank">
+                http://linkedin:com/in/анна-власова-5b03a51b3
+              </a>
+            <br>
+            <span>Linkedin</span>
+            </li>
+            <li class="contacts__item contacts__item--skype">
+              rash7810<br>
+              <span>Skype</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </section>
+      <!-- Контакты /END-CODE -->
+
+    <!-- Footer /BEGIN-CODE -->
+    <footer class="footer">
+      <div class="container">
+      <div class="footer__copyright">
+        <a class="footer__copyright-link" href="https://www.facebook.com/andrei.ovcharov.2305" target="_blank">
+        &copy;Andrei Ovcharov, 2021
+        </a>
+        <p>
+          datoshcode@gmail.com
+        </p>
+      </div>
+      </div>
+    </footer>
+    <!-- Footer /END-CODE -->
+
+    <!-- Scripts /BEGIN-CODE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="js/menu.scroll.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Scripts /END-CODE -->
+  </body>
+</html>
