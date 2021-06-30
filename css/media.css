@@ -36,6 +36,16 @@
     margin: 0 auto;
     margin-bottom: 40px;
   }
+  
+   .photo-gallery__slider .photo-gallery__item {
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  .photo-gallery__item img {
+    width: 250px;
+    margin: 0 auto;
+  }
 }
 
 /* max-width: 780px */
