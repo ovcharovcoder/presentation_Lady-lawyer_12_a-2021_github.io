@@ -39,10 +39,11 @@
   
    .photo-gallery__slider .photo-gallery__item {
     height: 100vh;
+     margin: 0 auto;
   }
 
   .photo-gallery__item img {
-    width: 250px;
+    width: 150px;
     margin: 0 auto;
   }
 }
