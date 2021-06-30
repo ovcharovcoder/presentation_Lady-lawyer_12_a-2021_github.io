@@ -38,8 +38,7 @@
   }
   
    .photo-gallery__slider .photo-gallery__item {
-    height: 90vh;
-    margin: 0 auto;
+    height: 100vh;
   }
 
   .photo-gallery__item img {
