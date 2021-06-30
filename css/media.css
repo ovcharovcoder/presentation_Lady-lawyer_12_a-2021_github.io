@@ -179,7 +179,7 @@
 /* max-width: 550px */
 @media (max-width: 550px) {
   .photo-gallery__slider .photo-gallery__item {
-    height: 100vh;
+    max-height: 250px;
     margin: 0 auto;
   }
 }
