@@ -32,13 +32,13 @@
   }
 
   .contacts__img {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 40px;
   }
   
    .photo-gallery__slider .photo-gallery__item {
-    height: 80vh;
+    height: 90vh;
     margin: 0 auto;
   }
 
