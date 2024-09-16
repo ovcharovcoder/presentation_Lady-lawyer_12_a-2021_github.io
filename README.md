@@ -10,4 +10,4 @@
 <p>Все авторские права на графический макет принадлежат его автору.</p>
 <p>Сайт сверстан с ознакомительной целью, без получения коммерческой выгоды.</p>
 
-<p>Ссылка на сайт: https://datoshcode.github.io/presentation_Lady-lawyer_12_a-2021_github.io/ </p>
+<p>Ссылка на сайт: https://ovcharovcoder.github.io/presentation_Lady-lawyer_12_a-2021_github.io/ </p>
